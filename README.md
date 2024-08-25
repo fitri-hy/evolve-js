@@ -15,8 +15,8 @@ Untuk menggunakan EvolveJS, pastikan Anda memiliki Node.js dan npm (Node Package
 Jika Anda ingin menggunakan EvolveJS dari repositori GitHub, Anda bisa meng-clone repositorinya dengan perintah berikut:
 
 ```
-git clone https://github.com/username/evolvejs.git
-cd evolvejs
+git clone https://github.com/fitri-hy/evolve-js.git
+cd evolve-js
 ```
 
 Install dependensi yang diperlukan dengan npm:
