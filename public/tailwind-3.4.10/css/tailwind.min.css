@@ -525,9 +525,6 @@ video {
 .-z-20 {
   z-index: -20;
 }
-.z-50 {
-  z-index: 50;
-}
 .m-auto {
   margin: auto;
 }
@@ -539,6 +536,9 @@ video {
 }
 .flex {
   display: flex;
+}
+.hidden {
+  display: none;
 }
 .aspect-\[1108\/632\] {
   aspect-ratio: 1108/632;
@@ -674,6 +674,12 @@ video {
   .sm\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+}
+@media (min-width: 768px) {
+
+  .md\:flex {
+    display: flex;
   }
 }
 @media (min-width: 1024px) {
