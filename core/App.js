@@ -19,8 +19,8 @@ class App {
   setup() {
     this.app.use(express.json());
     this.app.set('view engine', 'ejs');
-    this.app.set('views', path.join(__dirname, '../views'));
-    this.app.use(express.static(path.join(__dirname, '../public')));
+    this.app.set('views', path.join(__dirname, './../views'));
+    this.app.use(express.static(path.join(__dirname, './../public')));
     this.app.use(getCSSMiddleware());
     this.app.use(Middleware.logRequests);
     this.app.use(Middleware.addHeader);
