@@ -1,4 +1,4 @@
-<img src="./public/images/logo.png">
+<img src="./public/images/ss.png">
 
 # EvolveJS
 
