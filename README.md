@@ -10,6 +10,16 @@ EvolveJS adalah framework JavaScript berbasis Express yang dirancang untuk membe
 
 Untuk menggunakan EvolveJS, pastikan Anda memiliki Node.js dan npm (Node Package Manager) yang terinstal di sistem Anda. Jika belum, Anda dapat mengunduh dan menginstalnya dari Node.js.
 
+Sebelum melanjutkan sebaiknya Anda diharuskan untuk menetapkan framework css yang akan di gunakan, Evolve menyediakan dua pilihan yaitu Bootstrap CSS dan Tailwind CSS (local maupun cdn). Anda bisa mengaturnya pada file `views/css.json`
+```
+{
+  "_note_": "cssFramework = Ubah ke bootstrap atau tailwind | cssSource = Ubah ke cdn atau local",
+  "cssFramework": "tailwind",
+  "cssSource": "local"
+}
+```
+Dengan adanya aturan ini akan memudahkan Anda dalam menggunakan framework css tanpa perlu menambah atau menginstall serta mengubah kode lagi.
+
 #### 2. Instalasi
 
 Jika Anda ingin menggunakan EvolveJS dari repositori GitHub, Anda bisa meng-clone repositorinya dengan perintah berikut:
@@ -34,7 +44,7 @@ npm start / npm run dev
 
 ```
 
-Untuk menjalankan aplikasi EvolveJS dengan tailwind css secara langsung, gunakan perintah berikut:
+Untuk menjalankan aplikasi EvolveJS dengan tailwind css local secara langsung, gunakan perintah berikut:
 
 ```
 npm run dev:tw
