@@ -507,9 +507,6 @@ video {
 .absolute {
   position: absolute;
 }
-.relative {
-  position: relative;
-}
 .inset-0 {
   inset: 0px;
 }
@@ -527,6 +524,9 @@ video {
 }
 .-z-20 {
   z-index: -20;
+}
+.z-50 {
+  z-index: 50;
 }
 .m-auto {
   margin: auto;
