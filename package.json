@@ -7,10 +7,10 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "build:css": "npx postcss public/tailwind-3.4.10/css/tailwind.css -o public/tailwind-3.4.10/css/tailwind.min.css",
-	"dev:tw": "concurrently \"npm run build:css -- --watch\" \"nodemon app.js\""
+    "dev:tw": "concurrently \"npm run build:css -- --watch\" \"nodemon app.js\""
   },
   "dependencies": {
-    "ejs": "^3.1.9",
+    "ejs": "^3.1.10",
     "express": "^4.19.2"
   },
   "devDependencies": {
