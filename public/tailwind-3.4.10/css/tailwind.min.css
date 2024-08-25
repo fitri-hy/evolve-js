@@ -513,29 +513,20 @@ video {
 .inset-0 {
   inset: 0px;
 }
+.bottom-10 {
+  bottom: 2.5rem;
+}
 .left-\[calc\(50\%-4rem\)\] {
   left: calc(50% - 4rem);
 }
 .top-10 {
   top: 2.5rem;
 }
-.bottom-0 {
-  bottom: 0px;
-}
-.top-0 {
-  top: 0px;
-}
-.bottom-10 {
-  bottom: 2.5rem;
-}
 .-z-10 {
   z-index: -10;
 }
 .-z-20 {
   z-index: -20;
-}
-.z-20 {
-  z-index: 20;
 }
 .m-auto {
   margin: auto;
