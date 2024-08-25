@@ -1,4 +1,5 @@
 import express from 'express';
+import ejs from 'ejs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import Router from './Router.js';
@@ -16,12 +17,10 @@ class App {
     this.setup();
   }
 
-  async setup() {
-    const ejs = await import('ejs');
-
+  setup() {
     this.app.use(express.json());
-    this.app.set('view engine', 'ejs');
     this.app.engine('ejs', ejs.renderFile);
+    this.app.set('view engine', 'ejs');
     this.app.set('views', path.join(__dirname, '../views'));
     this.app.use(express.static(path.join(__dirname, '../public')));
     this.app.use(getCSSMiddleware());
