@@ -27,7 +27,7 @@ class App {
     this.app.use(Middleware.logRequests);
     this.app.use(Middleware.addHeader);
 
-    this.router.addRoute('get', '/', WebRoute);
+    this.app.use('/', WebRoute);
     
     this.app.use(this.router.getRouter());
     this.app.use((req, res, next) => {
